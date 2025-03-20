@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #00bfff;
+}
+
+.signup {
+    background-color: #ff6400;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+}
+
+.hero {
+    background-color: #fff5e1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 28px;
+    color: black;
+}
+
+.hero p {
+    margin: 18px 0;
+    color: black;
+}
+
+.hero-image {
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #00d185;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.subscribe {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 40px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.subscribe h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.email-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn.subscribe {
+    background-color: #00d185;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn.subscribe:hover {
+    background-color: #00b165;
+}
+
+footer {
+    background-color: #40434a;
+    /* Màu nền */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    /* Thêm khoảng đệm */
+}
+
+.footer-brand {
+    margin-bottom: 20px;
+    /* Khoảng cách dưới */
+}
+
+.footer-brand h3 {
+    margin: 0;
+    /* Bỏ khoảng cách mặc định */
+    font-size: 24px;
+    /* Kích thước chữ cho tên thương hiệu */
+}
+
+.footer-brand p {
+    margin: 5px 0 0;
+    /* Khoảng cách cho đoạn mô tả */
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa các liên kết */
+    margin-bottom: 20px;
+    /* Khoảng cách dưới các liên kết */
+}
+
+.footer-links div {
+    margin: 0 20px;
+    /* Khoảng cách giữa các phần */
+}
+
+.footer-links h4 {
+    margin: 0 0 10px;
+    /* Khoảng cách dưới cho tiêu đề */
+}
+
+.footer-links a {
+    color: white;
+    /* Màu chữ trắng */
+    text-decoration: none;
+    /* Bỏ gạch chân */
+    display: block;
+    /* Hiển thị dưới dạng khối */
+    margin: 5px 0;
+    /* Khoảng cách giữa các liên kết */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    /* Gạch chân khi hover */
+}
